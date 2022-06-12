@@ -11,7 +11,7 @@ import "./styles.css";
 import App from "./components/App";
 
 axios.defaults.baseURL = "https://reqres.in/api";
-
+ 
 const sagaMiddleware = createSagaMiddleware();
 const store = createStore(reducers, applyMiddleware(sagaMiddleware));
 const rootElement = document.getElementById("root");
