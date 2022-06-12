@@ -1,0 +1,28 @@
+.customButton {
+  font-family: var(--font-family);
+  border-color: #030086;
+  background-color: #fff;
+
+  font-size: 16px;
+  padding: 10px 60px;
+  border-radius: 2px;
+  margin: 10px 0px;
+  cursor: pointer;
+  transition: background-color 0.1s linear, color 0.1s linear,
+    border 0.1s linear, outline 0.1s linear;
+}
+
+.custombutton:focus {
+  background-color: #0804b8;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  left: 20vw;
+}
+
+.outerbox {
+  justify-content: center;
+}
